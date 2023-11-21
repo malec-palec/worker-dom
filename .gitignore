@@ -8,5 +8,4 @@ package-lock.json
 demo/build/
 demo/example/
 demo/test/
-dist/*
 .husky/
