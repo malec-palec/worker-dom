@@ -3,6 +3,7 @@
   "version": "0.34.0",
   "description": "A facsimile of a modern DOM implementation intended to run in a Web Worker.",
   "main": "dist/main",
+  "module": "dist/main.mjs",
   "files": [
     "dist"
   ],

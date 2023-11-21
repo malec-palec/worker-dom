@@ -1,4 +1,4 @@
-import { fetchAndInstall } from './install';
+import { fetchAndInstall, install } from './install';
 import { ExportedWorker } from './exported-worker';
 
 export function upgradeElement(baseElement: Element, domURL: string): Promise<ExportedWorker | null> {
@@ -11,3 +11,5 @@ export function upgradeElement(baseElement: Element, domURL: string): Promise<Ex
   }
   return Promise.resolve(null);
 }
+
+export { install };
